@@ -1,0 +1,7 @@
+
+$> iverilog -o fullAddSub_mux_16b -c file_list.txt
+
+$> vvp fullAddSub_mux_16b -lxt2
+
+$> gtkwave dump.lx2
+
