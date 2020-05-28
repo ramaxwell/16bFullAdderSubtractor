@@ -7,6 +7,7 @@ I used Icarus Verilog along with GTKWave to build and test this project.
 
 
 usage.txt
+
 $> iverilog -o fullAddSub_mux_16b -c file_list.txt
 
 $> vvp fullAddSub_mux_16b -lxt2
